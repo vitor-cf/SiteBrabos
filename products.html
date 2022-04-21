@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Central de Atendimento</title>
+  </head>
+  <body>
+    <section class="primeiro-cabecalho">
+      <ul>
+        <li><a href="minhaconta.html">Minha conta</a></li>
+        <li>|</li>
+        <li><a href="">Central de Atendimento</a></li>
+      </ul>
+    </section>
+
+    <header>
+      <nav>
+        <ul class="logo-cabecalho">
+          <li>
+            <img
+              class="iconbrabos"
+              src="images/logo brabos1.jpg"
+              alt="logo-brabos"
+            />
+          </li>
+
+          <li><a class="menu" href="index.html">HOME</a></li>
+          <li><a class="menu" href="">PRODUCTS</a></li>
+          <li><a class="menu" href="">CONTACT</a></li>
+        </ul>
+        <label for="search"></label>
+        <input
+          type="text"
+          id="search"
+          class="input-padrao"
+          placeholder="Busque"
+        />
+      </nav>
+    </header>
+
+    <div class="caixa">
+      <h1>CENTRAL DE ATENDIMENTO</h1>
+      <p>Encontre a melhor forma de entrar em contato</p>
+
+      <h2>CANAIS DE ATENDIMENTO</h2>
+      <p>&#9993; suporte@brabosoficial.com.br</p>
+      <p>Fala via Messenger</p>
+      <p>&#128222; Whatsapp</p>
+
+      <p>OU ENVIE UMA MENSAGEM</h2>
+    </div>
+
+    <main class="central">
+      <form>
+        <label class="nome" for="nomesobrenome"></label>
+        <input
+          type="text"
+          id="nomesobrenome"
+          class="input-padrao"
+          required
+          placeholder="Nome"
+        />
+
+        <label class="whats" for="telefone"></label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          placeholder="Telefone"
+        />
+
+        <section class="contatotwo">
+          <label class="seuemail" for="email"></label>
+          <input
+            type="text"
+            id="email"
+            class="input-padraoum"
+            placeholder="Email"
+          />
+
+          <label class="assunt" for="assunto"></label>
+          <input
+            type="text"
+            id="assunto"
+            class="input-padraoum"
+            placeholder="Assunto"
+          />
+        </section>
+        <label for="mensagem"></label>
+        <textarea
+          cols="67"
+          rows="10"
+          id="mensagem"
+          class="input-padraomensagem"
+          required
+          placeholder=" Mensagem"
+        ></textarea>
+
+        <input type="submit" value="Enviar" class="enviar" />
+      </form>
+    </main>
+
+    <footer>
+      <h1>
+        <img src="images/icon-brabos3.png" alt="" />
+      </h1>
+
+      <h1>
+        <a href="https://www.instagram.com/oficialbrabos/" target="_blank"
+          ><img class="instagram" src="images/1384047.png" alt=""
+        /></a>
+      </h1>
+    </footer>
+  </body>
+</html>
