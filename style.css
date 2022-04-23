@@ -4,9 +4,9 @@ body {
 }
 
 
-/* primeiro-cabeçalho */
+/* Central de atendimento / minha conta */
 .primeiro-cabecalho  {
-  background: rgb(182, 182, 182); 
+  background: rgb(1, 3, 17); 
   
 
 } 
@@ -20,7 +20,7 @@ body {
    
 
 .primeiro-cabecalho li { 
-  color: rgb(0, 0, 0);  
+  color: rgb(255, 255, 255);  
   margin:10px;
   font-size: 15px;
   
@@ -28,92 +28,86 @@ body {
 } 
 
 .primeiro-cabecalho a { 
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   
 }
 
+/* --------------------------- */
   
 
 
 
 
 
-/* CABEÇALHO */
+/* CABEÇALHO PRINCIPAL (LOGO/INPUT/MENU)*/
 header { 
+  background: rgb(255, 255, 255); 
+  border-style: solid;
+  border-color: rgb(193, 193, 193);
+  border-bottom-width: 0.08em; 
   
-  background: rgb(0, 0, 0);
 }
+  
 
 
 .logo-cabecalho { 
   display: flex; 
   align-items: center; 
-  
 } 
+  
 
 .iconbrabos { 
-  
-  width: 15%; 
-  
+  width: 10%; 
 } 
+  
+  
 
 .menu {
   display: flexbox;
   margin-right: 35px;  
-  
-  
 } 
+  
+ /* ESTILIZANDO INPUT DO CABEÇALHO */ 
 
 #search {
-  background: rgb(255, 253, 253);
+  background: rgb(255, 255, 255);
   position: absolute; 
-  top:85px;
+  top:60px;
   left: 250px;  
   padding: 4px 25px;
-  
 } 
+  
 .input-padrao {
   border-color: rgb(118, 116, 116);
   border-style: solid;
   border-radius: 20px;
   border-width: 0.095em;
   cursor: pointer;
-  
 } 
+  
 
 .input-padrao::-webkit-input-placeholder {
-  color: rgb(161, 159, 159);
-  
+  color: rgb(123, 123, 123);
 } 
 
+/* ------------------------------------- */
 
 
-
-  
-  
-  
-  
-
-  
-  
-
-
+/* ESTIILIZANDO A LISTA */
 
 li a {
   text-decoration: none; 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 } 
 
 a:hover {
   color: grey;
 }
 
+/* ------------------------------ */
 
 
   
-
-
-/* ------------------------------ */
 
 /* TITULO DE BEM VINDO */
 
@@ -121,32 +115,17 @@ section {
   font-family: 'Akshar', sans-serif;
   margin-top: 0; 
   background: rgb(255, 255, 255); 
-  
-   
-  
-  
-
 } 
-
+  
 section h1 {  
   text-align: center;
   font-size: 30px; 
-  margin: 10px auto;
-  
+  margin: 25px auto;
 }
-
-    
+   
 /* ----------------------- */ 
   
   
-  
-  
-  
-  
-  
-  
-
-
 /* IMAGEM PRINCIPAL */
 
 .homem-agachando {
@@ -166,11 +145,6 @@ section h1 {
   
   width: 49%;  
 }
-  
-  
-  
-  
-
 /* ------------------------------ */
 
 /* SOBRE NOS */  
@@ -180,13 +154,15 @@ section h1 {
   text-align: center;
   font-size: 20px;
   margin: 10px 0 0 10px;
-} 
+}  
+
+/* -------------------------------- */
 
 /* footer rodapé */
 
 footer {
-  margin-top: 500px;
-  background: black;
+  margin-top: 200px;
+  background: rgb(223, 223, 223);
 }
 
 
@@ -200,18 +176,34 @@ footer h1 {
 }
 
 .instagram {
-  background: rgb(255, 255, 255); 
-  width: 2%;
-} 
+  background: rgb(223, 223, 223); 
+  width: 1%;
+}  
+
+/* -------------------------------- */ 
+
 
 /* CENTRAL DE ATENDIMENTO */ 
+  
+.caixa {
+  margin-top: 50px;
+  display:inline-block;
+  margin-left: 500px;
+  width:40%; 
+  background-color: rgb(255, 255, 255); 
+}  
+  
 
+.caixa h1, h2 { 
+  text-align: start;
+  font-size: 22px; 
+} 
 
+.caixa p { 
+  margin: 10px;
+}
 
-
-
-
-
+    
 .input-padrao {
   position: relative;
   display: inline-block;
@@ -220,10 +212,10 @@ footer h1 {
   left: 500px;
   padding: 10px 30px; 
   font-style: italic; 
-  
-  
-  
 }
+  
+  
+  
 
 .input-padraoum { 
   position: relative;
@@ -246,9 +238,9 @@ footer h1 {
   margin-left: 10px;
   left: 500px; 
   font-style: italic;
+}  
   
 
-}  
 
 .input-padraomensagem::-webkit-input-placeholder {
  
@@ -256,15 +248,322 @@ footer h1 {
 } 
 
 .enviar {
-  position: absolute; 
-  right: 380px;
-  top: 720px; 
+  display: flex;  
+  margin-left: 510px;
   padding: 10px 30px; 
   background: black;
   border: none;
   border-radius: 5px; 
-  color: white;
+  color: white; 
+  margin-bottom: 50px; 
 }
+  
+
+/* ------------------- */  
+
+  
+/* checkout */ 
+
+
+
+.caixaDois {
+  position: relative;
+  background: rgb(255, 255, 255); 
+  width: 300px;
+  height: 300px; 
+  margin-left: 500px; 
+  margin-top: 50px; 
+  margin-bottom: 20px;  
+  border: solid; 
+  border-color: rgb(0, 0, 0); 
+  border-width: 2px; 
+
+} 
+  
+  
+  
+
+.caixaDois h1 {
+  padding: 10px;
+  font-size: 20px; 
+  text-align: center; 
+  background-color: rgb(173, 173, 173); 
+} 
+  
+  
+  
+
+.caixaDois p {
+  text-align: center;
+  margin-top: 20px;
+} 
+
+.input-dados {
+  position: absolute; 
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:270px;
+  height: 30px; 
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 0.0925rem;
+  border-radius: 5px;  
+  
+} 
+
+  
+  
+  
+
+.input-dados::-webkit-input-placeholder {
+  color: rgb(105, 105, 105); 
+  font-style: italic; 
+  
+} 
+
+.confirm {
+  position: absolute; 
+  height: 30px; 
+  top:170px;
+  left: 30px;
+  width: 80%; 
+  background: black; 
+  border: none; 
+  border-radius: 5px;  
+  color: white; 
+  cursor: pointer;
+}  
+
+.caixaDois h2 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 60px; 
+
+}
+
+/* ---------------------------------- */
+  
+  
+  
+
+/* Create */  
+
+.caixaUm {
+  position: absolute;
+  background: rgb(255, 255, 255); 
+  width: 300px;
+  height: 500px; 
+  margin-left: 500px; 
+  margin-top: 50px;  
+  margin-bottom: 50px; 
+  border: solid; 
+  border-color: rgb(0, 0, 0); 
+  border-width: 2px;
+} 
+
+
+  
+  
+  
+
+.caixaUm h1 {
+  padding: 10px;
+  font-size: 20px; 
+  text-align: center; 
+  background-color: rgb(173, 173, 173); 
+}  
+
+.caixaUm h2 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 60px; 
+
+}
+  
+  
+  
+
+.caixaUm p {
+  text-align: center;
+  margin-top: 20px;
+} 
+
+.dados p {
+  display: inline-flex;  
+  justify-content: space-between;
+  margin-left: 20px;
+}  
+
+.dados p + p {
+  font-style: italic; 
+  color: rgb(157, 157, 157);
+  margin-left: 80px; 
+  font-size: 11px;
+}  
+
+form {
+  margin-top: 15px;
+  margin-left: 20px; 
+
+}
+
+.input-create {
+  display: block;
+  margin-top: 20px;  
+  width: 250px;
+  height: 30px; 
+  border-style: solid;
+  border-radius: 5px; 
+  border-width: 0.0925em; 
+  border-color: black;
+} 
+
+fieldset {
+  margin-top: 10px;
+  margin-left: 20px; 
+  font-size: 14px;
+}
+
+.input-create::-webkit-input-placeholder {
+  font-style: italic; 
+  color: rgb(189, 188, 188);
+} 
+
+.input-confirmar {  
+  display: block;
+  margin-top: 20px;  
+  width: 250px;
+  height: 30px; 
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  
+}   
+
+.text-compra {
+  top: 300px; 
+  color: rgb(33, 160, 65);
+}
+  
+/* ---------------------------------- */   
+
+/* COMPRA 100% SEGURA (CHECKOUT) */
+  
+
+h3 {
+  color: rgb(0, 0, 0); 
+  background-color: red;
+  padding: 20px;
+  margin-top: 45px;
+  font-size: 20px; 
+} 
+
+
+/* -------------------------------- */
+  
+/* ADAPTANDO SITE MOBILE */
+
+@media screen and (max-width:480px) {
+  
+  .primeiro-cabecalho, ul, li, .logo-cabecalho {
+    width: auto; 
+    
+  }   
+
+  ul { 
+    width: auto;
+    align-items: center;
+    margin-left: 100px;
+    
+  } 
+
+  
+  .iconbrabos {
+    display: none; 
+    width: auto;
+  }
+
+  .input-padrao {
+    display: none; 
+    width: auto;
+  }  
+
+  
+  .caixaDois, .caixaUm {
+    margin-left: 70px;
+    margin-left: 40px;
+  } 
+  .homem-agachando{
+     width: 100%;
+    
+  }
+  .mulher, .calistenia{
+    display: none;
+    width: 80%; 
+    
+    
+    
+  }   
+
+  .sobre {
+    width: 100%; 
+    
+  }
+  .caixa {
+    margin-left: 70px;
+  } 
+
+  .central {
+    display: none;
+  }
+
+  footer {
+    width: auto;
+  }
+  
+    
+     
+  
+
+  
+
+  
+
+  }
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -293,126 +592,27 @@ footer h1 {
   
   
 
-/* ------------------- */  
 
-.caixa {
-  margin-top: 10px;
-  display:inline-block;
-  margin-left: 500px;
-  width:40%; 
-  background-color: rgb(255, 255, 255); 
-  
-}  
 
-.caixa h1, h2 { 
-  text-align: start;
-  font-size: 22px; 
-} 
-
-.caixa p { 
-  margin: 10px;
-
-}
   
   
 
-/* checkout */
 
-.caixaUm {
-  position: absolute;
-  background: rgb(255, 255, 255); 
-  width: 300px;
-  height: 300px; 
-  margin-left: 500px; 
-  margin-top: 50px; 
-  border: solid; 
-  border-color: rgb(0, 0, 0); 
-  border-width: 2px;
-  
-  
-} 
 
-.caixaUm h1 {
-  padding: 10px;
-  
-  font-size: 20px; 
-  text-align: center; 
-  background-color: rgb(218, 219, 218); 
-  
-  
-} 
 
-.caixaUm p {
-  text-align: center;
-  margin-top: 20px;
-} 
+ 
 
-.input-dados {
-  position: absolute; 
-  margin-top: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width:270px;
-  height: 30px; 
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  border-width: 0.0925rem;
-  border-radius: 5px; 
 
   
   
-  
-} 
-
-.input-dados::-webkit-input-placeholder {
-  color: rgb(105, 105, 105); 
-  font-style: italic;
-} 
-
-.confirm {
-  position: absolute; 
-  height: 30px; 
-  top:170px;
-  left: 30px;
-  width: 80%; 
-  background: black; 
-  border: none; 
-  border-radius: 5px;  
-  color: white;
-}  
-
-.caixaUm h2 {
-  position: absolute;
-  margin-top: 160px;
-  margin-left: 60px; 
-
-} 
-
-
-.caixaDois {
-  position: absolute; 
-  top: 100%;
-  background-color: rgb(0, 0, 0); 
-  width: 100%;
-  height:15%; 
-  
-} 
-
-.pagamento {
-  position: absolute;
-  color: white; 
-  margin-top: 45px;
-  margin-left: 100px; 
-  font-size: 20px; 
     
   
   
   
-}
+
 
   
   
-
 
 
   
